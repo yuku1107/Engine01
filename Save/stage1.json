@@ -1,0 +1,1393 @@
+{
+    "layers": [
+        {
+            "objects": [
+                {
+                    "class": "ScenePolygon2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "scene",
+                        "tag": "SCENEPOLYGON2D"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1104.0,
+                            122.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE2D",
+                        "textureName": ""
+                    }
+                },
+                {
+                    "class": "DiscoveryWindow",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            100.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "DISCOVERYWINDOW",
+                        "textureName": "discovery0"
+                    }
+                },
+                {
+                    "class": "ContinueButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "continue_W",
+                        "normalTexture": "continue_B",
+                        "position": [
+                            900.0,
+                            200.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "RetryButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "retry_W",
+                        "normalTexture": "retry_B",
+                        "position": [
+                            900.0,
+                            400.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "ClearUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            100.0,
+                            100.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            500.0,
+                            300.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "clear"
+                    }
+                },
+                {
+                    "class": "BulletCountUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1175.0,
+                            650.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "BULLET_UI"
+                    }
+                },
+                {
+                    "class": "MouseUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            619.0,
+                            417.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "cursor"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "CameraUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.1281777024269104,
+                            5.370153427124023,
+                            -47.15494918823242
+                        ],
+                        "rotation": [
+                            0.09799985587596893,
+                            -0.014000004157423973,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERAUI"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -0.4000000059604645,
+                            0.0
+                        ],
+                        "scale": [
+                            0.25,
+                            0.25,
+                            0.25
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE"
+                    }
+                },
+                {
+                    "class": "Light",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -7.871822357177734,
+                            15.370153427124023,
+                            -55.15494918823242
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "LIGHT"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Camera",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "distance": 9.199989318847656,
+                        "position": [
+                            0.1281777024269104,
+                            5.370153427124023,
+                            -47.15494918823242
+                        ],
+                        "rotation": [
+                            0.09799985587596893,
+                            -0.014000004157423973,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERA",
+                        "targetPosition": [
+                            0.0,
+                            4.469998359680176,
+                            -38.0
+                        ]
+                    }
+                },
+                {
+                    "class": "Sky",
+                    "data": {
+                        "Type": 2,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -0.4000000059604645,
+                            0.0
+                        ],
+                        "scale": [
+                            200.0,
+                            200.0,
+                            200.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "SKY"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            10.0,
+                            -16.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            20.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            15.0,
+                            39.12042999267578
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "TargetMark",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            16.31422996520996,
+                            -6.078000068664551
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "TARGETMARK"
+                    }
+                },
+                {
+                    "class": "GroundMove",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            10.0,
+                            -28.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            -28.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            1.0,
+                            5.0
+                        ],
+                        "shader": "depthShadow",
+                        "speed": 0.10000000149011612,
+                        "startPosition": [
+                            0.0,
+                            0.0,
+                            -28.0
+                        ],
+                        "tag": "GROUNDMOVE"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            20.0,
+                            77.86371612548828
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            11.0,
+                            8.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1.0853862762451172,
+                            16.440000534057617,
+                            50.37827682495117
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            30.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            20.725690841674805,
+                            91.056640625
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            20.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            22.32290267944336,
+                            100.78008270263672
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            1.0,
+                            5.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            27.825908660888672,
+                            111.96602630615234
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            30.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            12.984004020690918,
+                            -16.03658676147461
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 2,
+                        "tag": "DISCOVERYAREA"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 3,
+                        "tag": "DISCOVERYAREA"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            17.97781753540039,
+                            39.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 6,
+                        "tag": "DISCOVERYAREA"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            19.407930374145508,
+                            61.54932403564453
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 7,
+                        "tag": "DISCOVERYAREA"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            23.013423919677734,
+                            77.99993896484375
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 8,
+                        "tag": "DISCOVERYAREA"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            25.32012939453125,
+                            100.69373321533203
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 5,
+                        "tag": "DISCOVERYAREA"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Goal",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            44.4901123046875,
+                            112.37985229492188
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "GOAL"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            -4.0,
+                            27.697999954223633,
+                            105.23600006103516
+                        ],
+                        "position": [
+                            -4.0,
+                            27.697874069213867,
+                            105.23554992675781
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            -4.0,
+                            27.697874069213867,
+                            105.23554992675781
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            4.0,
+                            32.0,
+                            105.23600006103516
+                        ],
+                        "position": [
+                            4.0,
+                            32.0,
+                            105.23600006103516
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            4.0,
+                            32.0,
+                            105.23600006103516
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            -4.0,
+                            37.0,
+                            105.23600006103516
+                        ],
+                        "position": [
+                            -4.0,
+                            37.0,
+                            105.23600006103516
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            -4.0,
+                            37.0,
+                            105.23600006103516
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            4.0,
+                            42.0,
+                            105.23600006103516
+                        ],
+                        "position": [
+                            4.0,
+                            42.0,
+                            105.23600006103516
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            4.0,
+                            42.0,
+                            105.23600006103516
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 12.0,
+                        "position": [
+                            -6.0,
+                            22.0,
+                            93.13074493408203
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -6.0,
+                            22.0,
+                            93.13074493408203
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 14.0,
+                        "position": [
+                            7.008368968963623,
+                            22.0,
+                            89.5999984741211
+                        ],
+                        "rotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            7.008368968963623,
+                            22.0,
+                            89.5999984741211
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            23.30699920654297,
+                            70.0
+                        ],
+                        "position": [
+                            0.0,
+                            23.30699920654297,
+                            57.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            23.30699920654297,
+                            57.0
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 20.0,
+                        "position": [
+                            -10.0,
+                            18.0,
+                            50.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -10.0,
+                            18.0,
+                            50.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            17.847000122070313,
+                            27.992000579833984
+                        ],
+                        "position": [
+                            0.0,
+                            17.847000122070313,
+                            27.992000579833984
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            17.847000122070313,
+                            27.992000579833984
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            17.32699966430664,
+                            17.85099983215332
+                        ],
+                        "position": [
+                            0.0,
+                            17.32699966430664,
+                            17.85099983215332
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            17.32699966430664,
+                            17.85099983215332
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            15.562999725341797,
+                            -6.078000068664551
+                        ],
+                        "position": [
+                            0.0,
+                            15.562999725341797,
+                            -6.078000068664551
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            15.562999725341797,
+                            -6.078000068664551
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Player",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -3.836660711353801e-10,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -3.836660711353801e-10,
+                            0.0
+                        ],
+                        "tag": "PLAYER"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": []
+        }
+    ]
+}

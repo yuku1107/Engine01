@@ -1,0 +1,1352 @@
+{
+    "layers": [
+        {
+            "objects": [
+                {
+                    "class": "ScenePolygon2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "scene",
+                        "tag": "SCENEPOLYGON2D"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1086.0,
+                            122.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE2D",
+                        "textureName": ""
+                    }
+                },
+                {
+                    "class": "DiscoveryWindow",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            100.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "DISCOVERYWINDOW",
+                        "textureName": "discovery0"
+                    }
+                },
+                {
+                    "class": "ContinueButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "continue_W",
+                        "normalTexture": "continue_B",
+                        "position": [
+                            900.0,
+                            200.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "RetryButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "retry_W",
+                        "normalTexture": "retry_B",
+                        "position": [
+                            900.0,
+                            400.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "ClearUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            100.0,
+                            100.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            500.0,
+                            300.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "clear"
+                    }
+                },
+                {
+                    "class": "BulletCountUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1175.0,
+                            650.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "BULLET_UI"
+                    }
+                },
+                {
+                    "class": "MouseUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            611.0,
+                            420.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "cursor"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "CameraUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.22219522297382355,
+                            5.475332736968994,
+                            -45.933467864990234
+                        ],
+                        "rotation": [
+                            0.12599994242191315,
+                            -0.028000004589557648,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERAUI"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.25,
+                            0.25,
+                            0.25
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE"
+                    }
+                },
+                {
+                    "class": "Light",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -7.777804851531982,
+                            15.475332260131836,
+                            -53.933467864990234
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "LIGHT"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Camera",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "distance": 7.999999046325684,
+                        "position": [
+                            0.22219522297382355,
+                            5.475332736968994,
+                            -45.933467864990234
+                        ],
+                        "rotation": [
+                            0.12599994242191315,
+                            -0.028000004589557648,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERA",
+                        "targetPosition": [
+                            0.0,
+                            4.469998359680176,
+                            -38.0
+                        ]
+                    }
+                },
+                {
+                    "class": "Sky",
+                    "data": {
+                        "Type": 2,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -0.4000000059604645,
+                            0.0
+                        ],
+                        "scale": [
+                            200.0,
+                            200.0,
+                            200.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "SKY"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            3.1755714416503906,
+                            -20.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            20.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            5.836044788360596,
+                            56.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "TargetMark",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            8.292369842529297,
+                            -29.074872970581055
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "TARGETMARK"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            19.68511390686035,
+                            70.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            30.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            4.513307571411133,
+                            14.00114917755127
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            1.0,
+                            50.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Goal",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            36.25566101074219,
+                            69.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "GOAL"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            -4.0,
+                            12.0,
+                            63.0
+                        ],
+                        "position": [
+                            -4.0,
+                            12.0,
+                            63.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            -4.0,
+                            12.0,
+                            63.0
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            4.0,
+                            18.0,
+                            63.0
+                        ],
+                        "position": [
+                            4.0,
+                            18.0,
+                            63.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            4.0,
+                            18.0,
+                            63.0
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            -4.0,
+                            26.0,
+                            63.0
+                        ],
+                        "position": [
+                            -4.0,
+                            26.0,
+                            63.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            -4.0,
+                            26.0,
+                            63.0
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            4.0,
+                            35.0,
+                            63.0
+                        ],
+                        "position": [
+                            4.0,
+                            35.0,
+                            63.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            4.0,
+                            35.0,
+                            63.0
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            10.232999801635742,
+                            45.45100021362305
+                        ],
+                        "position": [
+                            0.0,
+                            10.233261108398438,
+                            45.451332092285156
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            10.233261108398438,
+                            45.451332092285156
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 15.0,
+                        "position": [
+                            0.0,
+                            6.0,
+                            35.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            3.140000104904175,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            6.0,
+                            35.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            3.140000104904175,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 40.0,
+                        "position": [
+                            -22.0,
+                            6.0,
+                            30.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            3.140000104904175,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -22.0,
+                            6.0,
+                            30.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            3.140000104904175,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 18.0,
+                        "position": [
+                            -9.0,
+                            6.0,
+                            30.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -9.0,
+                            6.0,
+                            30.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 18.0,
+                        "position": [
+                            9.0,
+                            6.0,
+                            25.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            9.0,
+                            6.0,
+                            25.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 36.0,
+                        "position": [
+                            -18.0,
+                            6.0,
+                            20.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -18.0,
+                            6.0,
+                            20.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 36.0,
+                        "position": [
+                            18.0,
+                            6.0,
+                            15.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            18.0,
+                            6.0,
+                            15.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 18.0,
+                        "position": [
+                            -9.0,
+                            6.0,
+                            10.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -9.0,
+                            6.0,
+                            10.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 18.0,
+                        "position": [
+                            9.0,
+                            6.0,
+                            5.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            9.0,
+                            6.0,
+                            5.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 36.0,
+                        "position": [
+                            -18.0,
+                            6.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            -18.0,
+                            6.0,
+                            0.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 15.0,
+                        "position": [
+                            0.0,
+                            6.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            6.0,
+                            0.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 36.0,
+                        "position": [
+                            18.0,
+                            6.0,
+                            -5.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            18.0,
+                            6.0,
+                            -5.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -1.5700000524520874,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Enemy",
+                    "data": {
+                        "attackType": 1,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "moveMax": 40.0,
+                        "position": [
+                            22.0,
+                            6.0,
+                            -10.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            22.0,
+                            6.0,
+                            -10.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "tag": "ENEMY"
+                    }
+                },
+                {
+                    "class": "Anchor",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "endPosition": [
+                            0.0,
+                            7.5370001792907715,
+                            -29.075000762939453
+                        ],
+                        "position": [
+                            0.0,
+                            7.5374755859375,
+                            -29.074872970581055
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "shader": "unlitTexture",
+                        "startPosition": [
+                            0.0,
+                            7.5374755859375,
+                            -29.074872970581055
+                        ],
+                        "tag": "ANCHOR"
+                    }
+                },
+                {
+                    "class": "Player",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -9.343875984334684e-24,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -9.343875984334684e-24,
+                            0.0
+                        ],
+                        "tag": "PLAYER"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": []
+        }
+    ]
+}

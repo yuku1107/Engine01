@@ -1,0 +1,532 @@
+{
+    "layers": [
+        {
+            "objects": [
+                {
+                    "class": "ScenePolygon2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "scene",
+                        "tag": "SCENEPOLYGON2D"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1098.0,
+                            124.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE2D",
+                        "textureName": ""
+                    }
+                },
+                {
+                    "class": "DiscoveryWindow",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            100.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "DISCOVERYWINDOW",
+                        "textureName": "discovery0"
+                    }
+                },
+                {
+                    "class": "ContinueButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "continue_W",
+                        "normalTexture": "continue_B",
+                        "position": [
+                            900.0,
+                            200.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "RetryButton",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "hoverTexture": "retry_W",
+                        "normalTexture": "retry_B",
+                        "position": [
+                            900.0,
+                            400.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            300.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "BUTTON"
+                    }
+                },
+                {
+                    "class": "ClearUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            100.0,
+                            100.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            500.0,
+                            300.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "clear"
+                    }
+                },
+                {
+                    "class": "BulletCountUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            1175.0,
+                            650.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "BULLET_UI"
+                    }
+                },
+                {
+                    "class": "MouseUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            612.0,
+                            422.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "unlitTextureAnimation",
+                        "tag": "UI",
+                        "textureName": "reticle"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "CameraUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -1.6983184814453125,
+                            6.423815727233887,
+                            -47.69401168823242
+                        ],
+                        "rotation": [
+                            0.2140011489391327,
+                            0.06799887865781784,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERAUI"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -8.347196578979492,
+                            2.3488714694976807,
+                            -18.00285530090332
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5800000429153442,
+                            0.0
+                        ],
+                        "scale": [
+                            0.25,
+                            0.25,
+                            0.25
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE"
+                    }
+                },
+                {
+                    "class": "Light",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -9.698318481445313,
+                            16.423816680908203,
+                            -55.69401168823242
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "LIGHT"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Camera",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "distance": 9.19999885559082,
+                        "position": [
+                            -1.6983184814453125,
+                            6.423815727233887,
+                            -47.69401168823242
+                        ],
+                        "rotation": [
+                            0.2140011489391327,
+                            0.06799887865781784,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERA",
+                        "targetPosition": [
+                            -1.0874701738357544,
+                            4.469998359680176,
+                            -38.72465133666992
+                        ]
+                    }
+                },
+                {
+                    "class": "Sky",
+                    "data": {
+                        "Type": 2,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -0.4000000059604645,
+                            0.0
+                        ],
+                        "scale": [
+                            200.0,
+                            200.0,
+                            200.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "SKY"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            20.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "TargetMark",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -2.2759861946105957,
+                            5.126138210296631,
+                            -30.330474853515625
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "TARGETMARK"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Goal",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            4.112038612365723,
+                            4.183090686798096,
+                            -37.72751235961914
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "GOAL"
+                    }
+                },
+                {
+                    "class": "Player",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            -0.018001114949584007,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            3.0,
+                            -38.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            -0.018001114949584007,
+                            0.0
+                        ],
+                        "tag": "PLAYER"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": []
+        }
+    ]
+}

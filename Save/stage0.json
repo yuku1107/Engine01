@@ -1,0 +1,841 @@
+{
+    "layers": [
+        {
+            "objects": [
+                {
+                    "class": "ScenePolygon2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "scene",
+                        "tag": "SCENEPOLYGON2D"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate2D",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -17.3358154296875,
+                            4.5906537691281007e-41,
+                            -17.3330078125
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE2D",
+                        "textureName": ""
+                    }
+                },
+                {
+                    "class": "DiscoveryWindow",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            100.0,
+                            100.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "DISCOVERYWINDOW",
+                        "textureName": "discovery0"
+                    }
+                },
+                {
+                    "class": "BulletCountUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1150.0,
+                            650.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            50.0,
+                            50.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "BULLET_UI"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "CameraUI",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -0.5031704902648926,
+                            3.607375144958496,
+                            -53.45381164550781
+                        ],
+                        "rotation": [
+                            0.2099999338388443,
+                            0.09199991822242737,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERAUI"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Coordinate",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            1082.0,
+                            126.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            0.25,
+                            0.25,
+                            0.25
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "COORDINATE"
+                    }
+                },
+                {
+                    "class": "Light",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -8.503170013427734,
+                            13.607375144958496,
+                            -61.45381164550781
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "LIGHT"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Camera",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "distance": 5.59999942779541,
+                        "position": [
+                            -0.5031704902648926,
+                            3.607375144958496,
+                            -53.45381164550781
+                        ],
+                        "rotation": [
+                            0.2099999338388443,
+                            0.09199991822242737,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "",
+                        "tag": "CAMERA",
+                        "targetPosition": [
+                            0.0,
+                            2.440000057220459,
+                            -48.0
+                        ]
+                    }
+                },
+                {
+                    "class": "Sky",
+                    "data": {
+                        "Type": 0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            200.0,
+                            200.0,
+                            200.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "SKY"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            20.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "TargetMark",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            5.5999836921691895,
+                            4.6890974044799805,
+                            -38.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "unlitTexture",
+                        "tag": "TARGETMARK"
+                    }
+                },
+                {
+                    "class": "MeshField",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "field",
+                        "tag": "MESHFIELD",
+                        "type": 1
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -11.7718505859375,
+                            5.731863498687744,
+                            -20.536026000976563
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -10.692451477050781,
+                            4.018590927124023,
+                            -30.086240768432617
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            3.0,
+                            1.0,
+                            3.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -2.109112024307251,
+                            6.91008186340332,
+                            -15.17294979095459
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            1.0,
+                            5.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            7.1659345626831055,
+                            9.076960563659668,
+                            -9.87130355834961
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            12.511343002319336,
+                            1.5,
+                            -38.589073181152344
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            1.0,
+                            2.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            15.992135047912598,
+                            1.5,
+                            -34.588863372802734
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            2.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "Ground",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            16.599334716796875,
+                            1.5,
+                            -24.622533798217773
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            10.0,
+                            1.0,
+                            10.0
+                        ],
+                        "shader": "depthShadow",
+                        "tag": "GROUND"
+                    }
+                },
+                {
+                    "class": "DiscoveryArea",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            2.7132136821746826,
+                            -48.0
+                        ],
+                        "rotation": [
+                            0.30000001192092896,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            5.0
+                        ],
+                        "shader": "",
+                        "showState": 1,
+                        "tag": "DISCOVERYAREA"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "TransferDevice",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            10.588809967041016,
+                            9.301948547363281,
+                            -10.200997352600098
+                        ],
+                        "rotation": [
+                            0.0,
+                            1.5700000524520874,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "TRANSFERDEVICE",
+                        "type": 3
+                    }
+                },
+                {
+                    "class": "TransferDevice",
+                    "data": {
+                        "color": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            16.98396110534668,
+                            1.7781503200531006,
+                            -21.435874938964844
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "TRANSFERDEVICE",
+                        "type": 4
+                    }
+                },
+                {
+                    "class": "TransferDevice",
+                    "data": {
+                        "color": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            -12.543152809143066,
+                            6.0871429443359375,
+                            -18.872854232788086
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "TRANSFERDEVICE",
+                        "type": 2
+                    }
+                },
+                {
+                    "class": "TransferDevice",
+                    "data": {
+                        "color": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            2.0,
+                            -35.32863998413086
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "tag": "TRANSFERDEVICE",
+                        "type": 1
+                    }
+                },
+                {
+                    "class": "Player",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            1.5,
+                            -48.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "pointLightingBlinnPhong",
+                        "startPosition": [
+                            0.0,
+                            1.5,
+                            -48.0
+                        ],
+                        "startRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "tag": "PLAYER"
+                    }
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "class": "Wave",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "waveRef",
+                        "tag": "WAVE"
+                    }
+                },
+                {
+                    "class": "Grass",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "shader": "tree",
+                        "tag": "GRASS"
+                    }
+                },
+                {
+                    "class": "Tree",
+                    "data": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            5.0,
+                            5.0,
+                            1.0
+                        ],
+                        "shader": "tree",
+                        "tag": "TREE"
+                    }
+                }
+            ]
+        }
+    ]
+}

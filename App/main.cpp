@@ -1,0 +1,218 @@
+/*==============================================================================
+
+	メイン[main.cpp]
+															 Author:郭　哲宇
+															 Date  :2025/04/23
+==============================================================================*/
+#include "main.h"
+#include <thread>
+#include "Engine/Core/manager.h"
+#include "Engine/Core/scene.h"
+#include "Engine/Core/Input/deviceInput.h"
+#include "Engine/Core/Input/Mouse/mouse.h"
+#include "Engine/Objects/SceneObjects/camera.h"
+
+
+
+//ImGui
+//-----------------------------------------------------------------------
+#include "ThirdParty/ImGui/imgui.h"
+#include "ThirdParty/ImGui/imgui_impl_win32.h"
+#include "ThirdParty/ImGui/imgui_impl_dx11.h"
+//-----------------------------------------------------------------------
+
+
+const char* CLASS_NAME = "AppClass";
+const char* WINDOW_NAME = "DX11ゲーム";
+
+
+LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+
+//ImGui
+extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+
+
+HWND g_Window;
+
+HWND GetWindow()
+{
+	return g_Window;
+}
+
+
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+{
+
+	WNDCLASSEX wcex;
+	{
+		wcex.cbSize = sizeof(WNDCLASSEX);
+		wcex.style = 0;
+		wcex.lpfnWndProc = WndProc;
+		wcex.cbClsExtra = 0;
+		wcex.cbWndExtra = 0;
+		wcex.hInstance = hInstance;
+		wcex.hIcon = nullptr;
+		wcex.hCursor = LoadCursor(nullptr, IDC_ARROW);
+		wcex.hbrBackground = nullptr;
+		wcex.lpszMenuName = nullptr;
+		wcex.lpszClassName = CLASS_NAME;
+		wcex.hIconSm = nullptr;
+
+		RegisterClassEx(&wcex);
+
+
+		RECT rc = { 0, 0, (LONG)SCREEN_WIDTH, (LONG)SCREEN_HEIGHT };
+		AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, FALSE);
+
+		g_Window = CreateWindowEx(0, CLASS_NAME, WINDOW_NAME, WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
+			rc.right - rc.left, rc.bottom - rc.top, nullptr, nullptr, hInstance, nullptr);
+	}
+
+	CoInitializeEx(nullptr, COINITBASE_MULTITHREADED);
+
+
+	Manager::Init();
+
+
+
+	ShowWindow(g_Window, nCmdShow);
+	UpdateWindow(g_Window);
+
+
+
+
+	DWORD dwExecLastTime;
+	DWORD dwCurrentTime;
+	timeBeginPeriod(1);
+	dwExecLastTime = timeGetTime();
+	dwCurrentTime = 0;
+
+
+
+	MSG msg;
+	while(1)
+	{
+        if(PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
+		{
+			if(msg.message == WM_QUIT)
+			{
+				break;
+			}
+			else
+			{
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+        }
+		else
+		{
+			dwCurrentTime = timeGetTime();
+
+			if((dwCurrentTime - dwExecLastTime) >= (1000 / 60))
+			{
+				dwExecLastTime = dwCurrentTime;
+
+				Manager::Update();
+				Manager::Draw();
+			}
+		}
+	}
+
+	timeEndPeriod(1);
+
+	UnregisterClass(CLASS_NAME, wcex.hInstance);
+
+	Manager::Uninit();
+
+	CoUninitialize();
+
+	return (int)msg.wParam;
+}
+
+
+
+
+LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+	if (ImGui_ImplWin32_WndProcHandler(hWnd, uMsg, wParam, lParam))
+	{
+		return true;
+	}
+
+	switch(uMsg)
+	{
+	
+	case WM_DESTROY:
+		PostQuitMessage(0);
+		break;
+
+	case WM_ACTIVATEAPP:
+	{
+		bool active = (wParam == TRUE);
+
+		DeviceInput::SetActive(active);
+
+		Mouse_ProcessMessage(uMsg, wParam, lParam);     //マウス
+
+		if (!active)  // 非アクティブになった
+		{
+			Mouse_SetCursorMode(MouseCursorMode::FreeCursor);
+		}
+		else
+		{
+			Camera* camera = Manager::GetScene()->GetGameObject<Camera>();
+			if (camera)
+			{
+				camera->ReapplyMouseMode();
+			}
+		}
+
+		break;
+	}
+	case WM_KEYDOWN:
+
+		switch(wParam)
+		{
+		case VK_ESCAPE:
+			DestroyWindow(hWnd);
+			break;
+		}
+		break;
+	case WM_KEYUP:
+	case WM_SYSKEYUP:
+		break;
+
+		//マウス	     
+	case WM_INPUT:
+	case WM_MOUSEMOVE:
+	case WM_LBUTTONDOWN:
+	case WM_LBUTTONUP:
+	case WM_RBUTTONDOWN:
+	case WM_RBUTTONUP:
+	case WM_MBUTTONDOWN:
+	case WM_MBUTTONUP:
+	case WM_MOUSEWHEEL:
+	case WM_XBUTTONDOWN:
+	case WM_XBUTTONUP:
+	case WM_MOUSEHOVER:
+		Mouse_ProcessMessage(uMsg, wParam, lParam);
+		break;
+		
+	
+	case WM_DPICHANGED:
+		if (ImGui::GetIO().ConfigFlags & ImGuiConfigFlags_DpiEnableScaleViewports)
+		{
+			//const int dpi = HIWORD(wParam);
+			//printf("WM_DPICHANGED to %d (%.0f%%)\n", dpi, (float)dpi / 96.0f * 100.0f);
+			const RECT* suggested_rect = (RECT*)lParam;
+			::SetWindowPos(hWnd, nullptr, suggested_rect->left, suggested_rect->top, suggested_rect->right - suggested_rect->left, suggested_rect->bottom - suggested_rect->top, SWP_NOZORDER | SWP_NOACTIVATE);
+		}
+		break;
+
+	default:
+		break;
+	}
+
+	return DefWindowProc(hWnd, uMsg, wParam, lParam);
+}
+

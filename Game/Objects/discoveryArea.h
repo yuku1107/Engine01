@@ -1,0 +1,43 @@
+/*==============================================================================
+
+    êVóvëfè–âÓÉGÉäÉA[discoveryArea.h]
+                                                             Author:äsÅ@ìNâF
+                                                             Date  :2026/02/09
+==============================================================================*/
+#ifndef DISCOVERYAREA_H
+#define DISCOVERYAREA_H
+
+#include "Engine/Core/gameObject.h"
+#include "discoveryWindow.h"
+
+class Player;
+
+class DiscoveryArea : public GameObject
+{
+private:
+    WINDOW_SHOW_STATE m_ShowState;
+
+    bool m_PlayerInside = false;
+    Player* m_Player = nullptr;
+    DiscoveryWindow* m_Window = nullptr;
+    class CubeMesh* m_CubeMesh;
+
+public:
+    void Init() override;   //èâä˙âª
+    void UninitSelf() override;//èIóπ
+    void UpdateSelf() override; //çXêV
+    void DrawSelf() override;   //ï`âÊ
+    void DrawInspector() override;
+
+    bool IsInside(const Vector3& point)const;
+    void SetState(WINDOW_SHOW_STATE state);
+    WINDOW_SHOW_STATE GetState() { return m_ShowState; }
+
+    void Serialize(Serializer& s) override;
+
+    void Deserialize(Serializer& s) override;
+
+    std::string GetObjectClassName() const override { return "DiscoveryArea"; }
+};
+
+#endif //DISCOVERYAREA_H
