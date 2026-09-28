@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# SDL3 import library (x64/ above would otherwise exclude it)
+!ThirdParty/SDL3-3.4.2/lib/x64/
