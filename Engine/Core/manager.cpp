@@ -190,7 +190,7 @@ void Manager::UpdateFPSCounter()
 
 	prev = now;
 
-	std::wstring title = L"GOST HUNTER FPS: " + std::to_wstring(fps);
+	std::wstring title = L"GHOST HUNTER FPS: " + std::to_wstring(fps);
 	SetWindowTextW(GetWindow(), title.c_str());
 }
 
