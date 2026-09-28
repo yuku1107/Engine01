@@ -37,6 +37,8 @@ protected:
 	virtual void UpdateSelf() {}
 	virtual void DrawSelf() {}
 public:
+	virtual ~GameObject() {}
+
 	//‰¼‘zŠÖ”
 	virtual void Init() {}
 	void Uninit() 
@@ -46,6 +48,7 @@ public:
 			comp->Uninit();
 			delete comp;
 		}
+		m_Components.clear();
 
 		UninitSelf();
 	}
@@ -86,7 +89,7 @@ public:
 	{
 		if (m_Destroy)
 		{
-			UninitSelf();
+			Uninit();
 			delete this;
 			return true;
 		}
